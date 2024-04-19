@@ -1,0 +1,501 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+background: black;
+}
+
+.hero{
+      width: 100%;
+      min-height: 25vh;
+      background-position: center;
+      background-size: cover;
+      padding: 10px 10%;
+      overflow: hidden;
+      position: relative;
+  }
+  nav{
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 15px;
+      font-weight: 400;
+  }
+  nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-weight: 400;
+      font-size: 1.3rem;
+     
+  }
+/* hhhh */
+nav ul li a:hover{
+background-image: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+}
+
+.hover-line:hover:after{
+width: 100%;
+transition: 3;
+}
+/* button */
+  .btn{
+      text-decoration: none;
+      display: inline-block;
+      color: #fff;
+      font-weight: 400;
+       background:linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+      height: 50px;
+      width: 180px;
+      font-size: 15px;
+      border-radius: 12px;
+      
+     }
+     .btn a{
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+     }
+     /* program section */
+     .program{
+      display: flex;
+      gap: 50px;
+      margin: 65px;
+     }
+     .prog-1{
+
+     }
+     .frog-1{
+      color: white;
+
+     }
+     .drog-1 h1{
+      font-size: 36px;
+      margin-top: 0px;
+      color: white;
+     }
+     .frog-2{
+      display: flex;
+      color: #fff;
+     }
+     .frog-img{
+       width: 30px;
+       height: 30px;
+       margin-top: 30px;
+     }
+     .prog-1 img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      vertical-align: middle;
+      border-radius: 8px;
+     }
+     .frog-1{
+      margin-top: 55px;
+     }
+     .frog-2{
+      margin-top: 55px;
+      gap: 15px;
+     }
+     .paha{
+      font-size: 17px;
+     }
+     .pala{
+      font-size: 21px;
+     }
+     /* our services section  */
+     .custom-cotainer{
+      color: #fff;
+      display: flex;
+      padding: 0 4.375rem;
+      justify-content: space-between;
+      margin-top: 200px;
+
+    }
+    .col-2 img{
+     width: 100%;
+     height: 100%;
+    }
+    .col-2{
+      width: 50%;
+      height: 100vh;
+    }
+    .col-1 h1{
+     font-size: 35px;
+    }
+    .col-1 h4{
+     font-size: 18px;
+    }
+    .e11-2 h5{
+      font-size: 14px;
+      line-height: 23px;
+    }
+    
+    .e11-2{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      padding-top: 12px;
+    }
+    .e11-2 h5{
+     margin-top: 30px;
+    }
+    /* work to developed se3ction */
+    .impact{
+    color: white;
+    margin-left: 60px;
+    font-size: 2rem;
+    }
+    .impact span{
+      background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .prod{
+      color: white;
+    }
+    .angoree{
+      display: flex;
+      flex-direction: row;
+      margin-top: 3.75rem;
+      justify-content: space-between;
+      margin: 60px;
+    }
+    .prod span{
+      font-size: 2.875rem;
+      background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .prod h4{
+      font-size: 26px;
+    }
+    .prod p{
+      font-size: 20px;
+      line-height: 24px;
+    }
+    
+    /* technlology section */
+    .stack{
+      color: white;
+      text-align: center;
+      margin-top: 150px;
+      font-size: 23px;
+    }
+    .react{
+      margin-top: 50px;
+    }
+    .react-1{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 150px;
+     margin-right: 150px;
+    }
+    .react-2{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      margin-left: 150px;
+     margin-right: 150px;
+    }
+    /* our development section */
+    .deve{
+      color: white;
+      text-align: center;
+      font-size: 23px;
+      margin-top: 100px;
+    }
+    /* our develpment section */
+    .mocup{
+      margin: 100px;
+      
+    }
+    .mocup-1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+   
+    }
+    .mocup-1 img{
+      width: 32px;
+      height: 32px;
+    }
+    .mocup-1 span{
+      font-size: 54px;
+      background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 60px;
+      height: 60px;
+      margin-bottom: 20px;
+    }
+    .moc{
+      display: flex;
+      flex-direction: column;
+    }
+    .cup{
+      border-left: 3px solid  blue;
+      margin-left: 10px;
+    }
+    .cup-1 h1{
+     margin-left: 15px;
+    }
+    .cup-1 p{
+      margin-left: 15px;
+      margin-top: 5px;
+    }
+    .mocup-2{
+    float:right;
+    margin-top: 50px;
+    }
+      .mocup-2{
+        display: flex;
+        flex-direction: row;
+        color: white;
+       
+    }
+    .mocup-2 img{
+      width: 32px;
+      height: 32px;
+    }
+    .mocup-2 span{
+      font-size: 54px;
+      background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 60px;
+      height: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    }
+    .mocup-z{
+    margin: 100px;
+    }
+    .cup-2{
+    margin-right: 55px;
+    }
+    .mocup-s{
+    float: right;
+    margin-right: 100px;
+    
+    
+    }
+  /* protfolio section */
+  .hanse h5{
+    text-align: center;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  }
+  .hanse h3{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .row{
+  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-top: 50px;
+  }
+  .rows-d{
+  margin-top: 15px;
+  }
+  .marte{
+  width: 100%;
+  height: 50%;
+  }
+  .marte img{
+    /* width: 100%;
+    height: 100%; */
+   margin-left: 40px;
+    }
+  /* contact us section */
+  .contact-us{
+    color: white;
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .description p{
+    font-size: 15px;
+margin-top: 2.3125rem;
+line-height: 18px;
+max-width: unset;
+  }
+  .link{
+  
+  flex-direction: column;
+  display: flex;
+  padding: 30px;
+ gap: 20px;
+  }
+  .link h4{
+   font-size: 22px;
+  }
+  .contact-detail h4{
+    font-size: 22px;
+  }
+  .contact-detail h5{
+    font-size: 20px;
+  }
+  .contact-detail{
+  flex-direction: column;
+  display: flex;
+  padding: 30px;
+   gap: 20px;
+  }
+  .contact-detail img{
+    width: 20px;
+    height: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+  .img-wep{
+    display: flex;
+    gap: 10px;
+  }
+  /* footer section */
+  .footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 1rem 0 3.125rem;
+  }
+  .footer p{
+    font-size: 18px;
+    margin-left: 80px;
+  }
+  .media-social{
+  padding-right: 200px;
+  }
+  .media-social a{
+   padding: 10px;
+   list-style-type: none;
+  }
+  /* end */
+  /* reponsive */
+  @media (max-width: 786px){
+    .logo{
+    width: 50px;
+    height: 50px;
+    }
+    .btn{
+    font-size: 10px;
+    width: 60px;
+    height: 60px;
+    }
+    nav ul li a{
+    font-size: 10px;
+    display: flex;
+    }
+    .program{
+      display: inline-block;
+      width: 80%;
+      height: 80%;
+      margin-left: 10%;
+        }
+        prog-1 img{
+          margin-left: -17%;
+          border-radius: 2%;
+        }
+        .prog-2{
+        margin-top: 30px;
+        }
+        .prog-1{
+        width: 100%;
+        height: 100%;
+        }
+        .col-1 h1{
+          margin-right: 250px;
+          }
+          .custom-cotainer{
+          display: inline-block;
+          margin-top: 0;
+          }
+          .frog-2{
+          border-bottom: 2px solid #787878;
+          }
+          .col-2{
+            text-align: center;
+            float: left;
+            }
+            .col-2 img{
+            width: auto;
+            height: 200px;
+            margin-left: -17%;
+            margin-top: 50px;
+            border-radius: 2%;
+            }
+            .mozee{
+            margin-left: 0;
+            width: 100%;
+            height: 100%;
+            }
+            .e11-2 img{
+            width: 30px;
+            height: 30px;
+            margin-top: 20px;
+            }
+            .e11-2{
+            margin-right: 300px;
+            width: 60%;
+            height: 60%;
+            }
+            .react-2{
+              display: inline-block;
+              }
+              .react-2 img{
+                margin-top: 40px;
+                }
+            .react-1{
+              display: inline-block;
+              }
+              .react-1 img{
+              margin-top: 40px;
+              }
+              .marte img{
+                width: 92%;
+                height: 50%;
+                margin-left: 0;
+                margin-top: 30px;
+                }
+                .rows img{
+                margin-top: 30px;
+                }
+                .row{
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                }
+                .contact-us{
+                  display: inline-block;
+                  text-align: center;
+                margin-left: 12%;
+                  }
+                   .description img{
+                  width: 150px;
+                  height: 150px;
+                  margin-right: 250px;
+                  }
+                  .description p{
+                  margin-right: 250px;
+                  }
+                  .link{
+                   margin-right: 250px;
+                    font-size: 15px;
+                  }
+                  .contact-detail{
+                  margin-right: 200px;
+                  }
+  }
