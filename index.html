@@ -6,22 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <header>
     <section id="navBar">
         <div id="navBarLogo"><img src="images/logo.svg" alt="Cogent labs" id="imgLogo"></div>
-        <div id="navBarLinks">
-            <ul id="navlist">
-                <li id="navlinkslst"><a href="services.html" class="navLinks">Services</a></li>
-                <li id="navlinkslst"><a href="about.html" class="navLinks">About us</a></li>
-                <li id="navlinkslst"><a href="careers.html" class="navLinks">Careers</a></li>
-            </ul>
-        </div>
+        <nav>
+          <ul id="navLinklist">
+            <li><a href="service.html" class="hover-line">SERVICES</a></li>
+            <li><a href="About.html" class="hover-line">ABOUT</a></li>
+            <li><a href="https://cogent-labs.hirestream.io/careers/" class="hover-line">CARRIER</a></li>
+          </ul>
+          <div>
+        </nav>
         <a href="https://calendly.com/ehmadzubair/cogent-labs-free-consultation?month=2024-03" target="_main" id="navBarButton"><button>Book a Consultation</button></a>
-        <button id="hiddenbutton"><i class="fa-solid fa-bars" id="hiddenbuttonid"></i></button>
+        <div class="repo-div">
+          <i onclick="toggleMenu()" style="color: azure;" class="fa-solid fa-bars"></i>
+        </div>
     </section>
 </header>
 <br>
@@ -277,9 +280,20 @@
 </div>
 </div>
 <!-- javascript from navbar -->
-  <script>
-
-  </script>
-
+<script>
+  let navLinklist = document.getElementById("navLinklist");
+    navLinklist.style.maxHeight = "0px";
+    
+     function toggleMenu(){
+      console.log("barbara")
+        if (navLinklist.style.maxHeight == "0px")
+         {
+          navLinklist.style.maxHeight = "300px";
+         }
+         else{
+          navLinklist.style.maxHeight = "0px";
+    }
+    }
+    </script>
     </body>
     </html>

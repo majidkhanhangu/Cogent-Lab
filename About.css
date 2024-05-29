@@ -6,6 +6,9 @@ box-sizing: border-box;
 background: black;
 font-family: sans-serif;
 }
+.repo-div{
+    display: none;
+     }
 .hero{
       width: 100%;
       min-height: 80vh;
@@ -829,6 +832,27 @@ transition: 3;
         width: 60px;
         height: 60px;
         }
+        nav ul{
+            position: absolute;
+            top: 90px;
+            right: 0;
+            left: 0;
+            flex-direction: column;
+            text-align: center;
+            gap: 0;
+            overflow: hidden;
+            }
+            nav ul li{
+            padding: 20px;
+        
+            }
+          nav ul li a{
+          font-size: 10px;
+       
+          }
+          .repo-div{
+            display: inline;
+             }
         nav ul li a{
         font-size: 10px;
         display: flex;
